@@ -1,5 +1,5 @@
  var moment = require('moment');
-module.exports = function SettingCost(){
+module.exports = function(){
   var callCostSet = 2;
   var smsCostSet = 1;
   var warningLevelSet =5;
