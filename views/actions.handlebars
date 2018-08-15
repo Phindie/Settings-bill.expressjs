@@ -1,0 +1,25 @@
+
+
+   <table class="row" >
+     <h3>Time Stamps</h3>
+     <thead>
+    <tr>
+       <th>Type</th>
+       <th>Price</th>
+       <th>When</th>
+       <th>Ago</th>
+    </tr>
+   </thead>
+  <tbody>
+    {{#each  timestamp}}
+   <tr>
+
+      <td>{{type}}</td>
+     <td>{{price}}</td>
+     <td>{{when}}</td>
+     <td>{{ago}}</td>
+
+     </tr>
+     {{/each}}
+    </body>
+   </table>
