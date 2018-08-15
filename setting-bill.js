@@ -1,9 +1,9 @@
  var moment = require('moment');
- module.exports = function(){
-  var callCostSet = 1;
-  var smsCostSet = 2;
+module.exports = function(){
+  var callCostSet = 2;
+  var smsCostSet = 1;
   var warningLevelSet =5;
-  var criticalLevelSet = 7;
+  var criticalLevelSet = 10;
 
 // create a variables that will keep track of all three totals.
   var totalCall = 0;

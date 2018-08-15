@@ -14,7 +14,7 @@ describe('SettingsBill Expressjs DOM function', function(){
 
     });
 
-    it('If sms total does not reach critical should return false  ', function(){
+  it('If sms total does not reach critical should return false  ', function(){
             var setting = settingBill();
              setting.smsTotals(5.00);
 
